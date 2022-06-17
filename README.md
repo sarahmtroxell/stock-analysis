@@ -21,16 +21,20 @@ The following VBA methods were used to solve the challenge:
 
 ![Stock_Market_Data](../main/Resources/VBA_Challege_Data.png)
 
+![Original_Code](../main/Resources/Original_Nested_Loop.png)
+
+I assiged the Macros to buttons so users could analyze stock market data without needing to know how to use Excel Developer tools. A screeshot of the final analysis output, including formatting, is below: 
 
 ![VBA_Output](../main/Resources/VBA_Challenge_Output.png)
 
 
 I ran the code two seperate times to analyze stock market data from 2017 and 2018. The recorded run times for each year's data are below: 
 
-![VBA_Original_2017](../main/Resources/VBA_Challenge_2017.png) ![VBA_Original_2018](../main/Resources/VBA_Challenge_2017.png)
+![VBA_Original_2017](../main/Resources/VBA_Original_2017.png) ![VBA_Original_2018](../main/Resources/VBA_Original_2017.png)
 
 ### Refactored Code
 
+![Refactored_Code](../main/Resources/Refactored_Array_Loop.png)
 
 I ran the final refactored code two seperate times to analyze stock market data from 2017 and 2018. The recorded run times for each year's data are below: 
 
@@ -38,4 +42,6 @@ I ran the final refactored code two seperate times to analyze stock market data 
 
 ## Summary
 
-- 
+### Comparison of Refactored Code
+
+### Key Takeaways
