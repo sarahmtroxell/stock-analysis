@@ -9,10 +9,11 @@ The purpose of this challenge is to become comfortable coding in Excel VBA and p
 The following VBA methods were used to solve the challenge: 
 
 1. Creating Macros
-2. Conditional Logic
-3. Nested For Loops
-4. Refactoring Code
-5. User Form Design (Inputs, Message Boxes, Buttons)
+2. Arrays
+3. Conditional Logic
+4. Nested For Loops
+5. Refactoring Code
+6. User Form Design (Inputs, Message Boxes, Buttons)
 
 ## Results
 
@@ -63,14 +64,14 @@ I ran the code two seperate times to analyze stock market data from 2017 and 201
 
 ```
 
-I ran the final refactored code two seperate times to analyze stock market data from 2017 and 2018. The recorded run times for each year's data are below: 
+I ran the final refactored code two seperate times to analyze stock market data from 2017 and 2018. Using the VBA timer function again, I recorded the time my code took to complete the analysis so I could compare to my original code. The recorded run times for each year's data are in the Message Box pop ups screenshotted below: 
 
 ![VBA_Refactored_2017](../main/Resources/VBA_Challenge_2017.png) ![VBA_Refactored_2018](../main/Resources/VBA_Challenge_2018.png)
 
 ## Summary
 
 ### Comparison of Refactored Code
-The clear advantage of refactoring code in general is to reduce the runtime and memory of your code. Depending on the size of data you are analyzing, the speed and memory required to run your code can become very important ad in extreme cases could crash the program. Additionally, refactored code tends to be easier for other developers to follow because its format is simplier and the functions are cleaner. If you wrote code for a job or client and it needed to be updated, you want others to be able to easily read your work and be able to collaborate without your explaination. The disadvantage of refactored code is that it may be time consuming for the developer. You can often reuse code formats from other projects to save time, but then may still have to refactor your code before finishing.
+While both my original and refactored code for the VBA challenge completed the same task and gave the same output, the refactored code ran 0.488 seconds faster for 2017 data and 0.504 seconds faster for 2018 data. This may not seem like a lot of time, but when the code is applied to larger data sets, the gap can become significant. I also noticed that my refactored code was much easier to read back through and exaplin to others. The orginal code listed the tickers in an array, but printed the variables for each ticker within the for loop. The refactored code was able to optimize this by storing the values for each variable in an array that correspoded to each ticker, then printed the values all at once at the end of the code. Also since the origial code used a nested for loop, there were two differet counters for the code to store and run through. The refactored code was able to run using only one counter, which most likely reduced memory. My refactored code included the output headers and conditional formatting, where as the original code had a seperate macro required to run to format the sheet. The only downside to refactoring my code was to learn how to use arrays properly in my code, since that was a new concept for me. In the future, I believe refactoring code will become easier as I become more comofortable with syntax, structure, and functions. 
 
 ### Key Takeaways
-While both my original and refactored code for the VBA challenge completed the same task and gave the same output, the refactored code ran 0.488 seconds faster for 2017 data and 0.504 seconds faster for 2018 data. This may not seem like a lot of time, but when the code is applied to larger data sets, the gap can become significant. I also noticed that my refactored code was much easier to read back through and exaplin to others. The orginal code listed the tickers in an array, but printed the variables for each ticker within the for loop. The refactored code was able to optimize this by storing the values for each variable in an array that correspoded to each ticker, then printed the values all at once at the end of the code. Since the origial code used a nested for loop, there were two differet counters for the code to store and run through. The refactored code was able to run using only one counter, which most likely reduced memory. 
+The clear advantage of refactoring code in general is to reduce the runtime and memory of your code. Depending on the size of data you are analyzing, the speed and memory required to run your code can become very important ad in extreme cases could crash the program. Additionally, refactored code tends to be easier for other developers to follow because its format is simplier and the functions are cleaner. If you wrote code for a job or client and it needed to be updated, you want others to be able to easily read your work and be able to collaborate without your explaination. The disadvantage of refactored code is that it may be time consuming for the developer. You can often reuse code formats from other projects to save time, but then may still have to refactor your code before finishing.
