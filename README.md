@@ -19,11 +19,22 @@ The following VBA methods were used to solve the challenge:
 
 ### Original Code
 
+![Stock_Market_Data](../main/Resources/VBA_Challege_Data.png)
+
+
+![VBA_Output](../main/Resources/VBA_Challenge_Output.png)
+
+
+I ran the code two seperate times to analyze stock market data from 2017 and 2018. The recorded run times for each year's data are below: 
+
+![VBA_Original_2017](../main/Resources/VBA_Challenge_2017.png) ![VBA_Original_2018](../main/Resources/VBA_Challenge_2017.png)
 
 ### Refactored Code
 
 
-![VBA_Challenge_Data](../main/resources/VBA_Challenge_Data.png)
+I ran the final refactored code two seperate times to analyze stock market data from 2017 and 2018. The recorded run times for each year's data are below: 
+
+![VBA_Refactored_2017](../main/Resources/VBA_Challenge_2017.png) ![VBA_Refactored_2018](../main/Resources/VBA_Challenge_2017.png)
 
 ## Summary
 
